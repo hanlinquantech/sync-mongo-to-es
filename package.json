@@ -1,0 +1,26 @@
+{
+  "name": "sync-mongo-and-elasticsearch",
+  "version": "1.0.0",
+  "description": "Project to sync between mongodb and elasticsearch using change streams.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mongodb",
+    "change",
+    "streams",
+    "elasticsearch"
+  ],
+  "author": "Han Lin",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@elastic/elasticsearch": "7.17.13",
+    "mongodb": "^6.3.0"
+  }
+}
